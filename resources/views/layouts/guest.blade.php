@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+        <title>BookMate Api</title>
 
         {{-- added  --}}
         <link rel="stylesheet" href="{{ asset('css/all_dash.css') }}">
@@ -31,7 +31,7 @@
     <body>
 
     <div class="d-md-flex half">
-        <div class="bg" style="background-color: #2b4257;"></div>
+        <div class="bg" style="background-color: #0068ff;"></div>
         <div class="contents">
 
             <div class="container">

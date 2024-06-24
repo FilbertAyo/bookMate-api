@@ -2,7 +2,7 @@
 
 
     <div class="text-center mb-3">
-        <h3><strong style="color:  #2b4257;">Admin</strong></h3>
+        <h3><strong style="color:  #0068ff;">Admin</strong></h3>
 
     </div>
 

@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>Well-Connect</title>
+        <title>BookMate Api</title>
 
         {{-- added --}}
         <link rel="canonical" href="{{ asset('https://v5.getbootstrap.com/docs/5.0/examples/dashboard/') }}">
@@ -26,8 +26,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
     integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
     crossorigin="anonymous"></script>
-
-  <link rel="stylesheet" href="{{ asset('css/all_dash.css') }}">
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -59,7 +57,6 @@
         <div class="overlay hidden"></div>
 
         <script src="{{ asset('static/js/app.js') }}"></script>
-        <script src="js/model.js"></script>
 
     </body>
 </html>
